@@ -1,0 +1,112 @@
+/* Global Style */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+section {
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+.ariat-title-1 {
+    color: #FA804C;
+}
+
+.ariat-title-2 {
+    color: #363958;
+}
+
+.ariat-button {
+    background-image: linear-gradient( #3D4FF3, #3543BC);
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+
+/* Header Stle */
+
+.header-section .ariat-menu {
+    align-items: flex-end;
+}
+
+.header-section {
+    background-color: #FFF9F4;
+}
+
+.header-section nav ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.banner-content h1 {
+    font-size: 80px;
+    line-height: .9;
+}
+
+
+/* Products and Feature Style */
+
+.ariat-card {
+    border: 0;
+    border-radius: 20px;
+}
+
+.ariat-card img {
+    border: none;
+    border-radius: 20px;
+}
+
+.ariat-casual-section .ariat-card img {
+    background-color: #f1f1f1;
+    height: 400px;
+}
+
+.ariat-card h4,
+.ariat-card h2 {
+    font-weight: 900;
+}
+
+.ariat-card-footer {
+    border: 0;
+    background-color: white;
+}
+
+.ariat-card .ariat-card-icon {
+    width: 100px;
+    background-color: white;
+}
+
+.sales-img {
+    border-radius: 20px;
+}
+
+
+/* Contact Us Style */
+
+.ariat-contact i {
+    font-size: 50px;
+    color: #fa804c;
+}
+
+
+/* Style For Mobile Device */
+
+@media (max-width:768px) {
+    .ariat-casual-section h1,
+    .ariat-formal-section h1,
+    .ariat-feature-section .ariat-card,
+    .ariat-contact {
+        text-align: center;
+    }
+    .banner-two-order,
+    .banner-one-order {
+        order: -1;
+    }
+}
